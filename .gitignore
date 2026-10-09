@@ -10,6 +10,11 @@ lerna-debug.log*
 node_modules/
 dist/
 dist-ssr
+coverage/
+.aws-sam/
+.vite/
+.cache/
+.pytest_cache/
 *.local
 .env
 .env.*
@@ -17,6 +22,8 @@ dist-ssr
 *.pem
 *.key
 *.ppk
+*.p12
+*.pfx
 *.zip
 .aws/
 credentials
@@ -35,3 +42,6 @@ venv/
 *.njsproj
 *.sln
 *.sw?
+*.tmp
+*~
+~$*
